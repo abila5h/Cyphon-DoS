@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BAAB2A91E7042BA00AAB19A /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAAB2A81E7042BA00AAB19A /* Logo.png */; };
 		1BB85B2E1E701D1000438040 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB85B2D1E701D1000438040 /* AppleScriptObjC.framework */; };
 		1BB85B321E701D1000438040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB85B311E701D1000438040 /* main.m */; };
 		1BB85B341E701D1000438040 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 1BB85B331E701D1000438040 /* AppDelegate.applescript */; };
 		1BB85B361E701D1000438040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB85B351E701D1000438040 /* Assets.xcassets */; };
 		1BB85B391E701D1000438040 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BB85B371E701D1000438040 /* MainMenu.xib */; };
+		1BB85B4B1E70240300438040 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB85B4A1E70240300438040 /* button.png */; };
+		1BB85B4D1E702BD800438040 /* btninfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB85B4C1E702BD800438040 /* btninfo.png */; };
+		1BB85B4F1E7039F500438040 /* btnStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB85B4E1E7039F500438040 /* btnStop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BAAB2A81E7042BA00AAB19A /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		1BB85B2A1E701D1000438040 /* Cyphon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyphon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB85B2D1E701D1000438040 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		1BB85B311E701D1000438040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		1BB85B351E701D1000438040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BB85B381E701D1000438040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1BB85B3A1E701D1000438040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB85B4A1E70240300438040 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		1BB85B4C1E702BD800438040 /* btninfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btninfo.png; sourceTree = "<group>"; };
+		1BB85B4E1E7039F500438040 /* btnStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnStop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		1BB85B2F1E701D1000438040 /* Cyphon */ = {
 			isa = PBXGroup;
 			children = (
+				1BB85B471E7023CF00438040 /* Resources */,
 				1BB85B331E701D1000438040 /* AppDelegate.applescript */,
 				1BB85B351E701D1000438040 /* Assets.xcassets */,
 				1BB85B371E701D1000438040 /* MainMenu.xib */,
@@ -79,6 +88,17 @@
 				1BB85B311E701D1000438040 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BB85B471E7023CF00438040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BAAB2A81E7042BA00AAB19A /* Logo.png */,
+				1BB85B4E1E7039F500438040 /* btnStop.png */,
+				1BB85B4C1E702BD800438040 /* btninfo.png */,
+				1BB85B4A1E70240300438040 /* button.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +159,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAAB2A91E7042BA00AAB19A /* Logo.png in Resources */,
 				1BB85B361E701D1000438040 /* Assets.xcassets in Resources */,
+				1BB85B4B1E70240300438040 /* button.png in Resources */,
+				1BB85B4D1E702BD800438040 /* btninfo.png in Resources */,
 				1BB85B391E701D1000438040 /* MainMenu.xib in Resources */,
+				1BB85B4F1E7039F500438040 /* btnStop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				1BB85B3F1E701D1000438040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
