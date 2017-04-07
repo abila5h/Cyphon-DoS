@@ -24,7 +24,7 @@ SlowLoris seemed to be the best solution for a Mac DoS tool due to its ability o
 
 # Download and demonstration
 
-[Download](https://github.com/abila5h/Cyphon/blob/master/Cyphon.zip?raw=true) - Hold down the Control key when launching the Application.
+[Download](https://github.com/abila5h/Cyphon-DoS/blob/master/Cyphon.zip?raw=true) - Hold down the Control key when launching the Application.
 
 [Youtube Video](https://www.youtube.com/watch?v=YRSbwgVHxxc&feature=youtu.be)
 
