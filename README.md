@@ -10,9 +10,9 @@ You can use this tool to test for DoS vulnerabilities on your server or to exper
 # Code Example
 ```AppleScript
  do script "mkdir -p ~/Source && cd ~/Source/"
-            do script "curl -O https://raw.githubusercontent.com/abila5h/Cyphon-DoS/master/slowloris.pl" in window 1
-            do script "chmod +x slowloris.pl" in window 1
-            do script "./slowloris.pl -dns  " & currentTextFieldText & " -port "  & portFieldText &  " -timeout " &timeoutFieldText & " -num "& packetFieldText in window 1
+ do script "curl -O https://raw.githubusercontent.com/abila5h/Cyphon-DoS/master/slowloris.pl" in window 1
+ do script "chmod +x slowloris.pl" in window 1
+ do script "./slowloris.pl -dns  " & currentTextFieldText & " -port "  & portFieldText &  " -timeout " &timeoutFieldText & " -num "& packetFieldText in window 1
 ```
 
 
