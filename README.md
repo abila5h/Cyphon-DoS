@@ -4,10 +4,17 @@ A simple yet powerful Low Bandwidth DoS (Denial of Service) tool written for Mac
 
 You can use this tool to test for DoS vulnerabilities on your server or to experiment it's potential. 
 
+# Built with
+* Xcode - Cocoa, Applescript
 
 # Code Example
+```AppleScript
+ do script "mkdir -p ~/Source && cd ~/Source/"
+            do script "curl -O https://raw.githubusercontent.com/abila5h/Cyphon-DoS/master/slowloris.pl" in window 1
+            do script "chmod +x slowloris.pl" in window 1
+            do script "./slowloris.pl -dns  " & currentTextFieldText & " -port "  & portFieldText &  " -timeout " &timeoutFieldText & " -num "& packetFieldText in window 1
+```
 
-Cyphon is built in Xcode as a Cocoa-Applescript application. 
 
 # Motivation
 
